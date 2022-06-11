@@ -30,15 +30,8 @@ public class FrontServlet extends HttpServlet {
 		try {
 			Properties p=new Properties();
 			
-//			カレントの取得
-//			Path p1 = Paths.get("");
-//		    Path p2 = p1.toAbsolutePath();
-//		    System.out.println("カレントディレクトリ"+p2.toString());
-			
-
-		    
 //		    ファイルのパスを記述
-		    String filePath="C:\\Users\\kota\\git\\HelloWeb\\PropertiesFolder\\command.properties";
+		    String filePath="C:\\Users\\kota\\git\\リポジトリー\\Heb-Java\\PropertiesFolder\\command.properties";
 //		    System.out.println(filePath);
 			p.load(new FileInputStream(filePath));
 			System.out.println("servletPath:"+request.getServletPath());

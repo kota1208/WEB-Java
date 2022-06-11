@@ -13,7 +13,7 @@ public class DAOFactory {
 
 		try {
 			Properties properties=new Properties();
-		    String filePath="C:\\Users\\kota\\git\\HelloWeb\\PropertiesFolder\\dao.properties";
+		    String filePath="C:\\Users\\kota\\git\\リポジトリー\\Heb-Java\\PropertiesFolder\\dao.properties";
 
 			properties.load(new FileInputStream(filePath));
 			String className=properties.getProperty(instanceName);
